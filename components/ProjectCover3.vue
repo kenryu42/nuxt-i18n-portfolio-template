@@ -1,0 +1,22 @@
+<template>
+  <nuxt-link
+    :to="localePath('project')"
+    :aria-label="$t('project') + ' 3'"
+    :title="$t('project') + ' 3'"
+  >
+    <div
+      class="bg-cover bg-center h-96 max-w-6xl md:h-128 mx-5 my-5 lg:mx-auto lg:h-160 xl:h-192 cursor-pointer"
+      style="background-image: url(/project3.jpg)"
+    >
+      <div class="absolute bg-white opacity-90 p-2 mt-8">
+        <span class="font-bold md:text-2xl">{{ $t('project') }} 3 </span>
+      </div>
+    </div>
+  </nuxt-link>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style></style>
