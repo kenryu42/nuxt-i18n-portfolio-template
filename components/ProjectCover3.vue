@@ -3,6 +3,7 @@
     :to="localePath('project')"
     :aria-label="$t('project') + ' 3'"
     :title="$t('project') + ' 3'"
+    @click.native="gotoSlide(3)"
   >
     <div
       class="bg-cover bg-center h-96 max-w-6xl md:h-128 mx-5 my-5 lg:mx-auto lg:h-160 xl:h-192 cursor-pointer"
@@ -16,7 +17,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    gotoSlide(index) {
+      this.$store.commit('slide/goto', index)
+    },
+  },
+}
 </script>
 
 <style></style>

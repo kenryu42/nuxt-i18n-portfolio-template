@@ -21,7 +21,7 @@
           {{ $t('p1_backend') }}
         </p>
 
-        <div class="flex mt-8 justify-between">
+        <div class="flex mt-8 justify-center">
           <a
             href="https://liewjenglung.com/"
             rel="noopener noreferrer"
@@ -29,13 +29,6 @@
             class="flex bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded hover:bg-gray-800"
             >{{ $t('trynow') }}<ExternalLink class="ml-1 mt-1"
           /></a>
-          <div
-            aria-label="Swipe"
-            title="Swipe"
-            class="flex bg-yellow-300 text-black px-5 py-3 font-semibold rounded animate__animated animate__shakeX animate__infinite animate__slower animate__delay-3s"
-          >
-            {{ $t('swipe') }} <SwipeIcon />
-          </div>
         </div>
       </div>
     </div>

@@ -1,29 +1,32 @@
 <template>
   <div>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide" data-hash="slide1">
-          <Project1 />
-        </div>
-        <div class="swiper-slide" data-hash="slide2">
-          <Project2 />
-        </div>
-        <div class="swiper-slide" data-hash="slide3">
-          <Project3 />
-        </div>
-      </div>
-    </div>
+    <swiper ref="mySwiper" class="swiper" :options="swiperOption">
+      <swiper-slide><Project1 /></swiper-slide>
+      <swiper-slide><Project2 /></swiper-slide>
+      <swiper-slide><Project3 /></swiper-slide>
+      <div slot="pagination" class="swiper-pagination"></div>
+    </swiper>
   </div>
 </template>
 
 <script>
-// eslint-disable-next-line import/no-named-as-default
-import Swiper from 'swiper'
-
 export default {
   data() {
     return {
       title: this.$i18n.t('project'),
+      swiperOption: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      },
     }
   },
   head() {
@@ -31,13 +34,16 @@ export default {
       title: this.title + ' - Your_Name',
     }
   },
+  computed: {
+    swiper() {
+      return this.$refs.mySwiper.$swiper
+    },
+    slideIndex() {
+      return this.$store.state.slide.index
+    },
+  },
   mounted() {
-    // eslint-disable-next-line no-unused-vars
-    const swiper = new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-    })
+    this.swiper.slideTo(this.slideIndex, 1000, false)
   },
 }
 </script>
