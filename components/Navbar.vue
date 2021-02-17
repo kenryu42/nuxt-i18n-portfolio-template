@@ -86,6 +86,7 @@
               :aria-label="$t('project')"
               :title="$t('project')"
               class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              @click.native="gotoSlide(1)"
               >{{ $t('project') }}</nuxt-link
             >
           </li>
@@ -153,6 +154,7 @@
               :aria-label="$t('project')"
               :title="$t('project')"
               class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              @click.native="gotoSlide(1)"
               >{{ $t('project') }}</nuxt-link
             >
           </li>
@@ -209,6 +211,9 @@ export default {
       } else {
         document.body.className = ''
       }
+    },
+    gotoSlide(index) {
+      this.$store.commit('slide/goto', index)
     },
   },
 }
