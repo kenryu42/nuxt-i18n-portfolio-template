@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="py-40 text-shadow-md text-center font-medium tracking-wide text-5xl md:text-8xl animate__animated animate__fadeOut animate__slower animate__infinite"
+      class="py-40 text-shadow-md text-center font-medium tracking-wide text-5xl md:text-8xl animate__animated animate__fadeOut animate__infinite"
     >
       <nuxt-link to="/about" :aria-label="$t('about')" :title="$t('about')">
         {{ message }}
@@ -18,6 +18,7 @@ export default {
   data() {
     return {
       message: 'Hello',
+      animateClass: '',
     }
   },
   mounted() {
@@ -55,10 +56,14 @@ export default {
       ]
       setInterval(() => {
         this.message = messages[++i % messages.length]
-      }, 2980)
+      }, 3000)
     },
   },
 }
 </script>
 
-<style></style>
+<style>
+.animate__animated.animate__fadeOut {
+  --animate-duration: 3s;
+}
+</style>
