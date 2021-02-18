@@ -10,7 +10,7 @@
         <div class="px-5"></div>
         <Twitter />
         <div class="px-5"></div>
-        <Facebook />
+        <LinkedIn />
       </div>
       <hr class="h-px m-6 bg-gray-700 border-none" />
       <div class="flex justify-center">

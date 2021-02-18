@@ -23,7 +23,7 @@
 
         <div class="flex mt-8 justify-center">
           <a
-            href="https://liewjenglung.com/"
+            href="/"
             rel="noopener noreferrer"
             target="_blank"
             class="flex bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded hover:bg-gray-800"

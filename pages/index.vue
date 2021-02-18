@@ -1,9 +1,13 @@
 <template>
   <div>
     <div
-      class="py-40 text-shadow-md text-center font-medium tracking-wide text-5xl md:text-8xl animate__animated animate__fadeOut animate__infinite"
+      class="py-40 text-center font-medium tracking-wide text-5xl md:text-8xl"
     >
-      <nuxt-link to="/about" :aria-label="$t('about')" :title="$t('about')">
+      <nuxt-link
+        :to="localePath('about')"
+        :aria-label="$t('about')"
+        :title="$t('about')"
+      >
         {{ message }}
       </nuxt-link>
     </div>
@@ -18,7 +22,6 @@ export default {
   data() {
     return {
       message: 'Hello',
-      animateClass: '',
     }
   },
   mounted() {
@@ -62,8 +65,4 @@ export default {
 }
 </script>
 
-<style>
-.animate__animated.animate__fadeOut {
-  --animate-duration: 3s;
-}
-</style>
+<style></style>

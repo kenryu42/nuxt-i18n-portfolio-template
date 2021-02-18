@@ -4,7 +4,7 @@
     <div>
       <div class="flex flex-col md:flex-row justify-center">
         <!-- Coding Skillset -->
-        <div class="mx-auto my-4 md:m-8">
+        <div class="mx-auto my-4 md:m-16">
           <div class="flex my-4">
             <CodeIcon />
             <h1 class="ml-4 font-bold text-2xl text-gray-800">
@@ -29,7 +29,7 @@
           </div>
         </div>
         <!-- Frontend Skillset -->
-        <div class="mx-auto my-4 md:m-8">
+        <div class="mx-auto my-4 md:m-16">
           <div class="flex my-4">
             <LaptopIcon />
             <h1 class="ml-4 font-bold text-2xl text-gray-800">
@@ -52,7 +52,7 @@
       </div>
       <div class="flex flex-col md:flex-row justify-center">
         <!-- Backend Skillset -->
-        <div class="mx-auto my-4 md:m-8">
+        <div class="mx-auto my-4 md:m-16">
           <div class="flex my-4">
             <LaptopIcon />
             <h1 class="ml-4 font-bold text-2xl text-gray-800">
@@ -73,7 +73,7 @@
           </div>
         </div>
         <!-- Dev Tools Skillset -->
-        <div class="mx-auto my-4 md:m-8">
+        <div class="mx-auto my-4 md:m-16">
           <div class="flex my-4">
             <DevIcon />
             <h1 class="ml-4 font-bold text-2xl text-gray-800">

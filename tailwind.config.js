@@ -55,5 +55,5 @@ module.exports = {
       textDecoration: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     },
   },
-  plugins: [require('tailwindcss-textshadow')],
+  plugins: [],
 }
