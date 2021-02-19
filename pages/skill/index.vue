@@ -1,13 +1,17 @@
 <template>
   <div class="px-6 py-8">
-    <h1 class="text-2xl font-bold text-center my-12">{{ $t('skillset') }}</h1>
+    <h1 class="text-2xl font-bold text-center my-12 dark:text-gray-300">
+      {{ $t('skillset') }}
+    </h1>
     <div>
       <div class="flex flex-col md:flex-row justify-center">
         <!-- Coding Skillset -->
         <div class="mx-auto my-4 md:m-16">
           <div class="flex my-4">
             <CodeIcon />
-            <h1 class="ml-4 font-bold text-2xl text-gray-800">
+            <h1
+              class="ml-4 font-bold text-2xl text-gray-900 dark:text-gray-500"
+            >
               {{ $t('coding') }}
             </h1>
           </div>
@@ -32,7 +36,9 @@
         <div class="mx-auto my-4 md:m-16">
           <div class="flex my-4">
             <LaptopIcon />
-            <h1 class="ml-4 font-bold text-2xl text-gray-800">
+            <h1
+              class="ml-4 font-bold text-2xl text-gray-900 dark:text-gray-500"
+            >
               {{ $t('frontend') }}
             </h1>
           </div>
@@ -55,7 +61,9 @@
         <div class="mx-auto my-4 md:m-16">
           <div class="flex my-4">
             <LaptopIcon />
-            <h1 class="ml-4 font-bold text-2xl text-gray-800">
+            <h1
+              class="ml-4 font-bold text-2xl text-gray-900 dark:text-gray-500"
+            >
               {{ $t('backend') }}
             </h1>
           </div>
@@ -76,7 +84,9 @@
         <div class="mx-auto my-4 md:m-16">
           <div class="flex my-4">
             <DevIcon />
-            <h1 class="ml-4 font-bold text-2xl text-gray-800">
+            <h1
+              class="ml-4 font-bold text-2xl text-gray-900 dark:text-gray-500"
+            >
               {{ $t('dev_tools') }}
             </h1>
           </div>

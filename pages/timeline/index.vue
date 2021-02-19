@@ -1,11 +1,11 @@
 <template>
   <div class="p-4 md:p-10">
     <div class="md:flex mt-20 text-center">
-      <div class="mx-auto md:w-2/3">
+      <div class="mx-auto md:w-2/3 text-gray-900 dark:text-gray-300">
         <h1 class="font-bold text-2xl mb-10 uppercase">{{ $t('timeline') }}</h1>
 
         <div
-          class="relative mt-5 text-left animate__animated animate__fadeInUp"
+          class="relative mt-5 text-left animate__animated animate__fadeInUp dark:text-gray-400"
         >
           <div class="flex items-center relative">
             <div class="hidden md:block w-20">
@@ -16,10 +16,10 @@
             </div>
 
             <div
-              class="border-r-2 border-black absolute h-full left-1 md:left-20 top-2 z-10"
+              class="border-r-2 border-black dark:border-gray-500 absolute h-full left-1 md:left-20 top-2 z-10"
             >
               <div
-                class="h-4 w-4 absolute border-2 border-black bg-yellow-300"
+                class="h-4 w-4 absolute border-2 border-black dark:border-gray-500 bg-green-400 dark:bg-blue-500"
               ></div>
             </div>
 
@@ -45,10 +45,10 @@
             </div>
 
             <div
-              class="border-r-2 border-black absolute h-full left-1 md:left-20 top-2 z-10"
+              class="border-r-2 border-black dark:border-gray-500 absolute h-full left-1 md:left-20 top-2 z-10"
             >
               <div
-                class="h-4 w-4 absolute border-2 border-black bg-yellow-300"
+                class="h-4 w-4 absolute border-2 border-black dark:border-gray-500 bg-green-400 dark:bg-blue-500"
               ></div>
             </div>
 
@@ -75,10 +75,10 @@
             </div>
 
             <div
-              class="border-r-2 border-black absolute h-full left-1 md:left-20 top-2 z-10"
+              class="border-r-2 border-black dark:border-gray-500 absolute h-full left-1 md:left-20 top-2 z-10"
             >
               <div
-                class="h-4 w-4 absolute border-2 border-black bg-yellow-300"
+                class="h-4 w-4 absolute border-2 border-black dark:border-gray-500 bg-green-400 dark:bg-blue-500"
               ></div>
             </div>
 
@@ -105,10 +105,10 @@
             </div>
 
             <div
-              class="border-r-2 border-black absolute h-full left-1 md:left-20 top-2 z-10"
+              class="border-r-2 border-black dark:border-gray-500 absolute h-full left-1 md:left-20 top-2 z-10"
             >
               <div
-                class="h-4 w-4 absolute border-2 border-black bg-yellow-300"
+                class="h-4 w-4 absolute border-2 border-black dark:border-gray-500 bg-green-400 dark:bg-blue-500"
               ></div>
             </div>
 
@@ -135,10 +135,10 @@
             </div>
 
             <div
-              class="border-r-2 border-black absolute h-full left-1 md:left-20 top-2 z-10"
+              class="border-r-2 border-black dark:border-gray-500 absolute h-full left-1 md:left-20 top-2 z-10"
             >
               <div
-                class="h-4 w-4 absolute border-2 border-black bg-yellow-300"
+                class="h-4 w-4 absolute border-2 border-black dark:border-gray-500 bg-green-400 dark:bg-blue-500"
               ></div>
             </div>
 
@@ -165,10 +165,10 @@
             </div>
 
             <div
-              class="border-r-2 border-black absolute h-full left-1 md:left-20 top-2 z-10"
+              class="border-r-2 border-black dark:border-gray-500 absolute h-full left-1 md:left-20 top-2 z-10"
             >
               <div
-                class="h-4 w-4 absolute border-2 border-black bg-yellow-300"
+                class="h-4 w-4 absolute border-2 border-black dark:border-gray-500 bg-green-400 dark:bg-blue-500"
               ></div>
             </div>
 
@@ -195,10 +195,10 @@
             </div>
 
             <div
-              class="border-r-2 border-black absolute h-full left-1 md:left-20 top-2 z-10"
+              class="border-r-2 border-black dark:border-gray-500 absolute h-full left-1 md:left-20 top-2 z-10"
             >
               <div
-                class="h-4 w-4 absolute border-2 border-black bg-yellow-300"
+                class="h-4 w-4 absolute border-2 border-black dark:border-gray-500 bg-green-400 dark:bg-blue-500"
               ></div>
             </div>
 

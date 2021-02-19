@@ -10,38 +10,38 @@
     >
       <div class="flex items-center px-6 py-3 bg-gray-900">
         <PenIcon />
-        <h1 class="mx-3 text-white font-semibold text-lg">
+        <h1 class="mx-3 font-semibold text-gray-100 dark:text-gray-300 text-lg">
           {{ $t('about_title') }}
         </h1>
       </div>
 
       <div class="py-4 px-6">
-        <h1 class="text-xl font-semibold text-gray-800 dark:text-white">
+        <h1 class="text-xl font-semibold text-gray-900 dark:text-gray-300">
           Hi, I'm [Your_Name]
         </h1>
 
-        <p class="py-2 text-gray-700 dark:text-gray-400">
+        <p class="py-2 text-gray-800 dark:text-gray-300">
           {{ $t('about_subtitle') }}
         </p>
 
-        <div class="flex items-center mt-4 text-gray-700">
+        <div class="flex items-center mt-4 text-gray-900 dark:text-gray-400">
           <WorkIcon />
           <h1 class="px-2 text-sm">[Your_Company_Name]</h1>
         </div>
 
-        <div class="flex items-center mt-4 text-gray-700">
+        <div class="flex items-center mt-4 text-gray-900 dark:text-gray-400">
           <LocationIcon />
           <h1 class="px-2 text-sm">{{ $t('location') }}</h1>
         </div>
 
-        <div class="flex items-center mt-4 text-gray-700">
+        <div class="flex items-center mt-4 text-gray-900 dark:text-gray-400">
           <GlobalIcon />
           <h1 class="px-2 text-sm">
             {{ $t('language') }}
           </h1>
         </div>
 
-        <div class="flex items-center mt-4 text-gray-700">
+        <div class="flex items-center mt-4 text-gray-900 dark:text-gray-400">
           <MailIcon />
           <a
             href="mailto:your_email@gmail.com"
@@ -51,7 +51,7 @@
             >your_email@gmail.com <ExternalLink class="inline"
           /></a>
         </div>
-        <div class="flex items-center mt-4 text-gray-700">
+        <div class="flex items-center mt-4 text-gray-900 dark:text-gray-400">
           <DocIcon />
           <nuxt-link
             :to="localePath('/resume.pdf')"
@@ -61,7 +61,7 @@
             {{ $t('resume') }} <ExternalLink class="inline" />
           </nuxt-link>
         </div>
-        <div class="flex items-center mt-4 text-gray-700">
+        <div class="flex items-center mt-4 text-gray-900 dark:text-gray-400">
           <LinkIcon />
           <a
             href="/"

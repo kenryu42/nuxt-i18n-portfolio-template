@@ -9,13 +9,14 @@ module.exports = {
       'nuxt.config.js',
     ],
   },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        darkmode: '#121212',
+      },
       spacing: {
         128: '32rem',
-        160: '40rem',
-        192: '48rem',
       },
     },
   },
