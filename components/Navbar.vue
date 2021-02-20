@@ -1,9 +1,9 @@
 <template>
   <nav
-    class="bg-gradient-to-r from-green-400 to-blue-500 sticky top-0 z-20 border-b-8 border-gray-900"
+    class="navB bg-gradient-to-r from-green-400 to-blue-500 sticky top-0 z-20 border-b-8 border-gray-900"
   >
     <div
-      class="px-4 py-4 md:py-8 mx-auto max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+      class="px-4 py-2 md:py-2 lg:py-6 mx-auto max-w-xl md:max-w-full lg:max-w-screen-xl md:px-16 lg:px-8"
     >
       <div class="relative flex items-center justify-between">
         <h1 class="ml-2 text-xl font-bold tracking-widest text-gray-900">
@@ -226,5 +226,8 @@ button:focus {
 }
 .non-scroll {
   overflow: hidden;
+}
+.navB {
+  transition: top 0.3s;
 }
 </style>

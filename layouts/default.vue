@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen overflow-x-hidden dark:bg-darkmode">
+  <div class="flex flex-col min-h-screen dark:bg-darkmode">
     <Navbar />
     <Nuxt class="flex-grow" />
     <Footer />

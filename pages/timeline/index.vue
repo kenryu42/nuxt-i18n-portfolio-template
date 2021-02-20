@@ -4,10 +4,8 @@
       <div class="mx-auto md:w-2/3 text-gray-900 dark:text-gray-300">
         <h1 class="font-bold text-2xl mb-10 uppercase">{{ $t('timeline') }}</h1>
 
-        <div
-          class="relative mt-5 text-left animate__animated animate__fadeInUp dark:text-gray-400"
-        >
-          <div class="flex items-center relative">
+        <div class="relative mt-5 text-left dark:text-gray-400">
+          <div class="flex items-center relative" data-aos="fade-up">
             <div class="hidden md:block w-20">
               <div class="font-bold italic">2020</div>
               <div class="md:flex space-x-1 text-xs">
@@ -36,7 +34,7 @@
               </div>
             </div>
           </div>
-          <div class="flex items-center relative">
+          <div class="flex items-center relative" data-aos="fade-up">
             <div class="hidden md:block w-20">
               <div class="font-bold italic">2019</div>
               <div class="md:flex space-x-1 text-xs">
@@ -66,7 +64,7 @@
             </div>
           </div>
 
-          <div class="flex items-center relative">
+          <div class="flex items-center relative" data-aos="fade-up">
             <div class="hidden md:block w-20">
               <div class="font-bold italic">2018</div>
               <div class="md:flex space-x-1 text-xs">
@@ -96,7 +94,7 @@
             </div>
           </div>
 
-          <div class="flex items-center relative">
+          <div class="flex items-center relative" data-aos="fade-up">
             <div class="hidden md:block w-20">
               <div class="font-bold italic">2015</div>
               <div class="md:flex space-x-1 text-xs">
@@ -126,7 +124,7 @@
             </div>
           </div>
 
-          <div class="flex items-center relative">
+          <div class="flex items-center relative" data-aos="fade-up">
             <div class="hidden md:block w-20">
               <div class="font-bold italic">2014</div>
               <div class="md:flex space-x-1 text-xs">
@@ -156,7 +154,7 @@
             </div>
           </div>
 
-          <div class="flex items-center relative">
+          <div class="flex items-center relative" data-aos="fade-up">
             <div class="hidden md:block w-20">
               <div class="font-bold italic">2009</div>
               <div class="md:flex space-x-1 text-xs">
@@ -186,7 +184,7 @@
             </div>
           </div>
 
-          <div class="flex items-center relative">
+          <div class="flex items-center relative" data-aos="fade-up">
             <div class="hidden md:block w-20">
               <div class="font-bold italic">2005</div>
               <div class="md:flex space-x-1 text-xs">

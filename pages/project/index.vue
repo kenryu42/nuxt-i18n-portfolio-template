@@ -5,6 +5,8 @@
       <swiper-slide><Project2 /></swiper-slide>
       <swiper-slide><Project3 /></swiper-slide>
       <div slot="pagination" class="swiper-pagination"></div>
+      <div slot="button-prev" class="prevBtn swiper-button-prev"></div>
+      <div slot="button-next" class="nextBtn swiper-button-next"></div>
     </swiper>
   </div>
 </template>
@@ -48,4 +50,13 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+@media only screen and (max-width: 1024px) {
+  .prevBtn {
+    display: none;
+  }
+  .nextBtn {
+    display: none;
+  }
+}
+</style>
