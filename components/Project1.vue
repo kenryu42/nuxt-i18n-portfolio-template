@@ -3,7 +3,7 @@
     <div class="bg-white dark:bg-darkmode">
       <div class="">
         <div
-          class="h-64 md:h-128 bg-cover bg-center"
+          class="mx-5 md:mx-20 h-64 md:h-128 bg-cover bg-center"
           style="background-image: url('/project1.jpg')"
         ></div>
       </div>
