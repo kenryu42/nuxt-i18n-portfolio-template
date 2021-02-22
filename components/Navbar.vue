@@ -21,6 +21,7 @@
               }"
               class="hover:text-red-700"
               :to="switchLocalePath('en')"
+              @click.native="gotoSlide(1)"
               >EN</nuxt-link
             >
             |
@@ -30,6 +31,7 @@
               }"
               class="hover:text-red-700"
               :to="switchLocalePath('jp')"
+              @click.native="gotoSlide(1)"
               >JP</nuxt-link
             >
             |
@@ -39,6 +41,7 @@
               }"
               class="hover:text-red-700"
               :to="switchLocalePath('cn')"
+              @click.native="gotoSlide(1)"
               >CN</nuxt-link
             >
             ]</span
@@ -169,6 +172,7 @@
                 }"
                 class="hover:text-red-700"
                 :to="switchLocalePath('en')"
+                @click.native="gotoSlide(1)"
                 >&nbsp;&nbsp;EN&nbsp;&nbsp;</nuxt-link
               >
               |
@@ -178,6 +182,7 @@
                 }"
                 class="hover:text-red-700"
                 :to="switchLocalePath('jp')"
+                @click.native="gotoSlide(1)"
                 >&nbsp;&nbsp;JP&nbsp;&nbsp;</nuxt-link
               >
               |
@@ -187,6 +192,7 @@
                 }"
                 class="hover:text-red-700"
                 :to="switchLocalePath('cn')"
+                @click.native="gotoSlide(1)"
                 >&nbsp;&nbsp;CN&nbsp;&nbsp;</nuxt-link
               >
               ]
