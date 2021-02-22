@@ -19,8 +19,6 @@
   "frontend": "前端",
   "backend": "后端",
   "dev_tools": "开发工具",
-  "trynow": "试一试",
-  "swipe": "滑动",
   "p1_desc": "设计软件有两种方法: 一种是简单到极致而明显没有缺陷; 另一种是复杂到极致以至于没有明显的缺陷。",
   "p1_frontend": "前端： Nuxt.js, Tailwindcss",
   "p1_backend": "后端： Flask API, Google Cloud Platform",

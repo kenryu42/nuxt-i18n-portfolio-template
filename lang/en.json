@@ -19,8 +19,6 @@
   "frontend": "Frontend",
   "backend": "Backend",
   "dev_tools": "Dev Tools",
-  "trynow": "Try Now",
-  "swipe": "Swipe",
   "p1_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu tincidunt arcu. Suspendisse sed luctus.",
   "p1_frontend": "Frontend: Nuxt.js, Tailwindcss",
   "p1_backend": "Backend: Flask API, Google Cloud Platform",

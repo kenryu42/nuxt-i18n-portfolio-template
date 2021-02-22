@@ -21,13 +21,19 @@
           {{ $t('p1_backend') }}
         </p>
 
-        <div class="flex mt-8 justify-center">
+        <div class="flex mt-8 justify-around">
           <a
             href="/"
             rel="noopener noreferrer"
             target="_blank"
             class="flex bg-gray-900 dark:bg-gray-800 text-gray-100 px-5 py-3 font-semibold rounded hover:bg-gray-800 dark:hover:bg-gray-700"
-            >{{ $t('trynow') }}<ExternalLink class="ml-1 mt-1"
+            >Demo<ExternalLink class="ml-1 mt-1"
+          /></a>
+          <a
+            href="https://github.com/kenxdrgn/Ai-Line-Art-Web-App"
+            rel="noopener noreferrer"
+            target="_blank"
+            ><GithubLogo
           /></a>
         </div>
       </div>

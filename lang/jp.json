@@ -19,8 +19,6 @@
   "frontend": "フロントエンド",
   "backend": "バックエンド",
   "dev_tools": "開発ツール",
-  "trynow": "今すぐ試す",
-  "swipe": "スワイプ",
   "p1_desc": "自分と同じくらいの能力がある人間はいくらでもいる。学び続ける姿勢を止めればいつか世界に淘汰される。",
   "p1_frontend": "フロントエンド： Nuxt.js, Tailwindcss",
   "p1_backend": "バックエンド： Flask API, Google Cloud Platform",
