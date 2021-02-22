@@ -6,7 +6,7 @@
     @click.native="gotoSlide(3)"
   >
     <div
-      class="bg-cover bg-center h-96 max-w-6xl md:h-128 mx-5 my-5 md:mx-20"
+      class="bg-cover bg-center h-96 max-w-6xl md:h-128 mx-5 my-5 md:mx-20 lg:mx-auto"
       data-aos="fade-up"
       style="background-image: url(/project3.jpg)"
     >
