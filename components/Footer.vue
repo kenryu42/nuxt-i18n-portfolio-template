@@ -16,21 +16,21 @@
         <div class="flex justify-center">
           <a
             class="github-button"
-            href="https://github.com/kenxdrgn/Face-Detection-And-Auto-Crop/fork"
+            href="https://github.com/kenxdrgn/i18n-nuxt-portfolio-template/fork"
             data-icon="octicon-repo-forked"
             data-size="large"
             data-show-count="true"
-            aria-label="Fork kenxdrgn/Face-Detection-And-Auto-Crop on GitHub"
+            aria-label="Fork kenxdrgn/i18n-nuxt-portfolio-template on GitHub"
             >Fork</a
           >
           <div class="px-6"></div>
           <a
             class="github-button"
-            href="https://github.com/kenxdrgn/Face-Detection-And-Auto-Crop"
+            href="https://github.com/kenxdrgn/i18n-nuxt-portfolio-template"
             data-icon="octicon-star"
             data-size="large"
             data-show-count="true"
-            aria-label="Star kenxdrgn/Face-Detection-And-Auto-Crop on GitHub"
+            aria-label="Star kenxdrgn/i18n-nuxt-portfolio-template on GitHub"
             >Star</a
           >
         </div>
