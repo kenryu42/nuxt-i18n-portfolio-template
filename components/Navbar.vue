@@ -1,9 +1,9 @@
 <template>
   <nav
-    class="navB bg-gradient-to-r from-green-400 to-blue-500 sticky top-0 z-20 border-b-8 border-gray-900"
+    class="bg-gradient-to-r from-green-400 to-blue-500 sticky top-0 z-20 border-b-8 border-gray-900"
   >
     <div
-      class="px-4 py-2 md:py-2 lg:py-6 mx-auto max-w-xl md:max-w-full lg:max-w-screen-xl md:px-16 lg:px-8"
+      class="px-4 py-2 lg:py-3 mx-auto max-w-xl md:max-w-full lg:max-w-screen-xl md:px-16 lg:px-8"
     >
       <div class="relative flex items-center justify-between">
         <h1 class="ml-2 text-xl font-bold tracking-widest text-gray-900">
@@ -47,14 +47,33 @@
             ]</span
           >
         </h1>
+        <button
+          class="lg:hidden"
+          :aria-label="$t('darkmode')"
+          :title="$t('darkmode')"
+          @click="switchToggle"
+        >
+          <On v-show="dark" />
+          <Off v-show="!dark" />
+        </button>
 
         <ul class="items-center hidden space-x-8 lg:flex">
+          <li>
+            <button
+              :aria-label="$t('darkmode')"
+              :title="$t('darkmode')"
+              @click="switchToggle"
+            >
+              <On v-show="dark" />
+              <Off v-show="!dark" />
+            </button>
+          </li>
           <li>
             <nuxt-link
               :to="localePath('/')"
               :aria-label="$t('home')"
               :title="$t('home')"
-              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-700"
               >{{ $t('home') }}</nuxt-link
             >
           </li>
@@ -63,7 +82,7 @@
               :to="localePath('/about')"
               :aria-label="$t('about')"
               :title="$t('about')"
-              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-700"
               >{{ $t('about') }}</nuxt-link
             >
           </li>
@@ -72,7 +91,7 @@
               :to="localePath('/timeline')"
               :aria-label="$t('timeline')"
               :title="$t('timeline')"
-              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-700"
               >{{ $t('timeline') }}</nuxt-link
             >
           </li>
@@ -81,7 +100,7 @@
               :to="localePath('/skill')"
               :aria-label="$t('skill')"
               :title="$t('skill')"
-              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-700"
               >{{ $t('skill') }}</nuxt-link
             >
           </li>
@@ -90,7 +109,7 @@
               :to="localePath('/project')"
               :aria-label="$t('project')"
               :title="$t('project')"
-              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-700"
               @click.native="gotoSlide(1)"
               >{{ $t('project') }}</nuxt-link
             >
@@ -122,7 +141,7 @@
               :to="localePath('/')"
               :aria-label="$t('home')"
               :title="$t('home')"
-              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-700"
               >{{ $t('home') }}</nuxt-link
             >
           </li>
@@ -131,7 +150,7 @@
               :to="localePath('/about')"
               :aria-label="$t('about')"
               :title="$t('about')"
-              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-700"
               >{{ $t('about') }}</nuxt-link
             >
           </li>
@@ -140,7 +159,7 @@
               :to="localePath('/timeline')"
               :aria-label="$t('timeline')"
               :title="$t('timeline')"
-              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-700"
               >{{ $t('timeline') }}</nuxt-link
             >
           </li>
@@ -149,7 +168,7 @@
               :to="localePath('/skill')"
               :aria-label="$t('skill')"
               :title="$t('skill')"
-              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-700"
               >{{ $t('skill') }}</nuxt-link
             >
           </li>
@@ -158,7 +177,7 @@
               :to="localePath('/project')"
               :aria-label="$t('project')"
               :title="$t('project')"
-              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-600"
+              class="font-medium tracking-wide text-gray-900 transition-colors duration-200 hover:text-red-700"
               @click.native="gotoSlide(1)"
               >{{ $t('project') }}</nuxt-link
             >
@@ -209,7 +228,18 @@ export default {
   data() {
     return {
       isMenuOpen: false,
+      dark: false,
     }
+  },
+  mounted() {
+    this.dark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    this.darkMode(this.dark)
+    window
+      .matchMedia('(prefers-color-scheme: dark)')
+      .addEventListener('change', (e) => {
+        this.dark = e.matches
+        this.darkMode(this.dark)
+      })
   },
   methods: {
     activeHamburger() {
@@ -223,6 +253,15 @@ export default {
     gotoSlide(index) {
       this.$store.commit('slide/goto', index)
     },
+    switchToggle() {
+      this.dark = !this.dark
+      this.darkMode(this.dark)
+    },
+    darkMode(dark) {
+      dark
+        ? document.querySelector('html').classList.add('dark')
+        : document.querySelector('html').classList.remove('dark')
+    },
   },
 }
 </script>
@@ -232,8 +271,5 @@ button:focus {
 }
 .non-scroll {
   overflow: hidden;
-}
-.navB {
-  transition: top 0.3s;
 }
 </style>
