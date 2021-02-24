@@ -51,6 +51,6 @@ $ cd i18n-nuxt-portfolio-template
 $ npm install
 
 # Serve with hot reload at localhost:3000
-npm run dev
+$ npm run dev
 ```
 
