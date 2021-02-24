@@ -26,7 +26,7 @@
 
 # Usage
 
-```
+```bash
 # Download this repository to local
 $ git clone https://github.com/kenxdrgn/i18n-nuxt-portfolio-template
 ```
