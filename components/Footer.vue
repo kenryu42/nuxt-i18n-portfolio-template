@@ -8,9 +8,9 @@
           <div class="px-5"></div>
           <Instagram />
           <div class="px-5"></div>
-          <Twitter />
-          <div class="px-5"></div>
           <LinkedIn />
+          <div class="px-5"></div>
+          <Twitter />
         </div>
         <hr class="h-px m-6 bg-gray-700 border-none" />
         <div class="flex justify-center">
