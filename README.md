@@ -15,4 +15,4 @@
 - [x] **Styled with Tailwindcss 2.0** 🎨
 - [x] **Dark Mode (Auto & Manual)** 🌚
 
-[![](https://img.shields.io/badge/-Demo%20🚀-informational)](https://i18n-nuxt-portfolio-template.web.app/)
+[![](https://img.shields.io/badge/-Demo%20🚀-informational?style=for-the-badge)](https://i18n-nuxt-portfolio-template.web.app/)
