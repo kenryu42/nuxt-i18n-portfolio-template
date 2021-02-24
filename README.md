@@ -8,11 +8,15 @@
 
 # Features
 
-- [x] **Mobile-first UI Design** 📱
+✅  **Mobile-first UI Design** 📱
 
-- [x] **Fully Responsive** 🖥
-- [x] **Server Side Rendering** 🚀
-- [x] **Styled with Tailwindcss 2.0** 🎨
-- [x] **Dark Mode (Auto & Manual)** 🌚
+✅  **Fully Responsive** 🖥
+
+✅  **Server Side Rendering** 🚀
+
+✅  **Styled with Tailwindcss 2.0** 🎨
+
+✅  **Dark Mode (Auto & Manual)** 🌚
 
 [![](https://img.shields.io/badge/-Demo%20🚀-informational?style=for-the-badge)](https://i18n-nuxt-portfolio-template.web.app/)
+
