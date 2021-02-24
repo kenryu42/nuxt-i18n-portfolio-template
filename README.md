@@ -10,7 +10,8 @@
 
 # Feature 
 
-- [x] **Mobile-first UI Design**
+- [x] **Mobile-first UI Design** 📱
 
-- [x] **Fully Responsive**
+- [x] **Fully Responsive** 🖥
+- [x] **Dark Mode (Auto & Manual)** 🌚
 
