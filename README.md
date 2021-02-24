@@ -18,5 +18,16 @@
 
 ✅  **Dark Mode (Auto & Manual)** 🌚
 
+
+
 [![](https://img.shields.io/badge/-Demo%20🚀-informational?style=for-the-badge)](https://i18n-nuxt-portfolio-template.web.app/)
+
+
+
+# Usage
+
+```
+# Download this repository to local
+$ git clone https://github.com/kenxdrgn/i18n-nuxt-portfolio-template
+```
 
