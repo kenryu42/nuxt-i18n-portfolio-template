@@ -1,8 +1,6 @@
 # i18n Nuxt Portfolio Template
 
-![LGTM Grade](https://img.shields.io/lgtm/grade/javascript/github/kenxdrgn/i18n-nuxt-portfolio-template?logo=lgtm&logoWidth=18)
-
-
+![LGTM Grade](https://img.shields.io/lgtm/grade/javascript/github/kenxdrgn/i18n-nuxt-portfolio-template?logo=lgtm&logoWidth=18)![GitHub](https://img.shields.io/github/license/kenxdrgn/i18n-nuxt-portfolio-template?color=brightgreen)
 
 ### A multi-language🌎 portfolio template for Developers.
 
