@@ -6,7 +6,19 @@
 
 ### A multi-language🌎 portfolio template for Developers.
 
+<br>
+
+### PC View:
+
 <img src="readme_file/i18n-nuxt.gif" width="800px" />
+
+---
+
+<br>
+
+### Mobile View:
+
+<img src="readme_file/i18n-nuxt_mobile.gif" height="800px" />
 
 ---
 
@@ -33,5 +45,14 @@
 ```bash
 # Download this repository to local machine
 $ git clone https://github.com/kenxdrgn/i18n-nuxt-portfolio-template
+
+# Go into the repository
+$ cd i18n-nuxt-portfolio-template
+
+# Install dependencies
+$ npm install
+
+# Serve with hot reload at localhost:3000
+npm run dev
 ```
 
