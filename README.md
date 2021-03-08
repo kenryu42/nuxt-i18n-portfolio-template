@@ -26,7 +26,7 @@
 
 ✅  **Fully Responsive** 🖥
 
-✅  **Server Side Rendering** 🚀
+✅  **Full Static Generation** 🚀
 
 ✅  **Styled with Tailwindcss 2.0** 🎨
 
