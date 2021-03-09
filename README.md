@@ -6,7 +6,21 @@
 
 <br>
 
-### PC View:
+### Lighthouse Score:
+
+<center>Desktop</center>
+
+<img src="readme_file/i18n-lighthouse-desktop.jpeg" alt="i18n-lighthouse-desktop" style="zoom:50%;" />
+
+<br>
+
+<center>Mobile</center>
+
+<img src="readme_file/i18n-lighthouse-mobile.jpeg" alt="i18n-lighthouse-mobile" style="zoom:50%;" />
+
+<br>
+
+### Desktop View:
 
 <img src="readme_file/i18n-nuxt.gif" width="800px" />
 
