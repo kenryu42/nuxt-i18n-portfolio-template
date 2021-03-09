@@ -76,6 +76,12 @@ export default {
     langDir: 'lang/',
   },
 
+  pwa: {
+    meta: {
+      theme_color: '#f9fafb',
+    },
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
   server: {
