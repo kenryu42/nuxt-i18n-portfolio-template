@@ -213,7 +213,7 @@
               </div>
             </div>
           </div>
-          <div class="font-bold text-center my-10">
+          <div class="font-bold text-center my-10" data-aos="fade-up">
             {{ $t('timeline_born') }} 🤰🏼👶🏼
           </div>
         </div>
