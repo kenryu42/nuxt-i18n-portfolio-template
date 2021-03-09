@@ -4,6 +4,7 @@
   "timeline": "Timeline",
   "skill": "Skill",
   "project": "Project",
+  "menu": "Menu",
   "darkmode": "Dark mode",
   "footer_msg": "This website is built with Nuxt.js and an excellent CSS framework called Tailwindcss and hosted on Firebase.",
   "footer_time": "Last Updated",

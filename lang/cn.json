@@ -4,6 +4,7 @@
   "timeline": "时间线",
   "skill": "技能",
   "project": "项目",
+  "menu": "选单",
   "darkmode": "暗黑模式",
   "footer_msg": "本网站使用Nuxt.js和CSS框架Tailwindcss构建，并托管在Firebase上。",
   "footer_time": "最后更新",

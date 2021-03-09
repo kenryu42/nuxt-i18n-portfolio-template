@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="h-2 bg-gradient-to-r from-green-400 to-blue-500"></div>
+    <div class="h-2 bg-gradient-to-r from-green-400 to-blue-500 mt-14"></div>
     <footer class="flex justify-center px-4 text-gray-400 bg-gray-900">
       <div class="container py-6">
         <div class="flex justify-center">

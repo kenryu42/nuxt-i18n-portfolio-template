@@ -2,6 +2,8 @@
   <a href="/" target="_blank" rel="noopener noreferrer">
     <svg
       class="w-8 h-8 fill-current text-gray-100 dark:text-green-400 transition duration-500 transform hover:scale-125"
+      aria-label="Github"
+      title="Github"
       viewBox="0 0 256 250"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

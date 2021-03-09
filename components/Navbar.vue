@@ -123,6 +123,8 @@
                 : 'hamburger hamburger--minus'
             "
             type="button"
+            :aria-label="$t('menu')"
+            :title="$t('menu')"
             @click="activeHamburger"
           >
             <span class="hamburger-box">

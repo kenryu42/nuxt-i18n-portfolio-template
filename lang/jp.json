@@ -4,6 +4,7 @@
   "timeline": "タイムライン",
   "skill": "スキル",
   "project": "プロジェクト",
+  "menu": "メニュー",
   "darkmode": "ダークモード",
   "footer_msg": "このウェブサイトはNuxt.jsとTailwindcssという素晴らしいCSSフレームワークで構築され、Firebase上でホストされています。",
   "footer_time": "最終更新",
