@@ -10,13 +10,13 @@
 
 <p align="center">Desktop</p>
 
-<img src="readme_file/i18n-lighthouse-desktop.jpeg" alt="i18n-lighthouse-desktop" width="70%" />
+<img align="center" src="readme_file/i18n-lighthouse-desktop.jpeg" alt="i18n-lighthouse-desktop" width="70%" />
 
 <br>
 
 <p align="center">Mobile</p>
 
-<img src="readme_file/i18n-lighthouse-mobile.jpeg" alt="i18n-lighthouse-mobile" width="70%" />
+<img align="center" src="readme_file/i18n-lighthouse-mobile.jpeg" alt="i18n-lighthouse-mobile" width="70%" />
 
 <br>
 
