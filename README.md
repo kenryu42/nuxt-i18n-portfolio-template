@@ -8,15 +8,15 @@
 
 ### Lighthouse Score:
 
-<center>Desktop</center>
+<p align="center">Desktop</p>
 
-<img src="readme_file/i18n-lighthouse-desktop.jpeg" alt="i18n-lighthouse-desktop" style="zoom:50%;" />
+<img src="readme_file/i18n-lighthouse-desktop.jpeg" alt="i18n-lighthouse-desktop" width="70%" />
 
 <br>
 
-<center>Mobile</center>
+<p align="center">Mobile</p>
 
-<img src="readme_file/i18n-lighthouse-mobile.jpeg" alt="i18n-lighthouse-mobile" style="zoom:50%;" />
+<img src="readme_file/i18n-lighthouse-mobile.jpeg" alt="i18n-lighthouse-mobile" width="70%" />
 
 <br>
 
@@ -36,21 +36,19 @@
 
 # Features
 
-✅  **Mobile-first UI Design** 📱
+✅ **Mobile-first UI Design** 📱
 
-✅  **Fully Responsive** 🖥
+✅ **Fully Responsive** 🖥
 
-✅  **Full Static Generation** 🚀
+✅ **Full Static Generation** 🚀
 
-✅  **Styled with Tailwindcss 2.0** 🎨
+✅ **Styled with Tailwindcss 2.0** 🎨
 
-✅  **Dark Mode (Auto & Manual)** 🌚
+✅ **Dark Mode (Auto & Manual)** 🌚
 
 <br>
 
 [![](https://img.shields.io/badge/-Demo%20🚀-informational?style=for-the-badge)](https://i18n-nuxt-portfolio-template.web.app/)
-
-
 
 # Usage
 
@@ -67,4 +65,3 @@ $ npm install
 # Serve with hot reload at localhost:3000
 $ npm run dev
 ```
-
