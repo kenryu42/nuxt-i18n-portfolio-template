@@ -8,7 +8,7 @@
 
 ### Lighthouse Score:
 
-<p align="center">Desktop</p>
+<p align="center"><b>Desktop</b></p>
 
 <p align="center">
 <img src="readme_file/i18n-lighthouse-desktop.jpeg" alt="i18n-lighthouse-desktop" width="70%" />
@@ -16,7 +16,7 @@
 
 <br>
 
-<p align="center">Mobile</p>
+<p align="center"><b>Mobile</b></p>
 
 <p align="center">
 <img src="readme_file/i18n-lighthouse-mobile.jpeg" alt="i18n-lighthouse-mobile" width="70%" />
