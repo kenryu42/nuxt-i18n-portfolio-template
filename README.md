@@ -11,7 +11,7 @@
 <p align="center"><b>Desktop</b></p>
 
 <p align="center">
-<img src="readme_file/i18n-lighthouse-desktop.jpeg" alt="i18n-lighthouse-desktop" width="70%" />
+<img src="readme_file/nuxt-i18n-desktop.jpeg" alt="i18n-lighthouse-desktop" width="70%" />
 </p>
 
 <br>
@@ -19,8 +19,9 @@
 <p align="center"><b>Mobile</b></p>
 
 <p align="center">
-<img src="readme_file/i18n-lighthouse-mobile.jpeg" alt="i18n-lighthouse-mobile" width="70%" />
+<img src="readme_file/nuxt-i18n-mobile.jpeg" alt="i18n-lighthouse-mobile" width="70%" />
 </p>
+
 
 <br>
 

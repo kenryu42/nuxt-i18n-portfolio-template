@@ -16,21 +16,21 @@
         <div class="flex justify-center">
           <a
             class="github-button"
-            href="https://github.com/kenxdrgn/i18n-nuxt-portfolio-template/fork"
+            href="https://github.com/kenxdrgn/nuxt-i18n-portfolio-template/fork"
             data-icon="octicon-repo-forked"
             data-size="large"
             data-show-count="true"
-            aria-label="Fork kenxdrgn/i18n-nuxt-portfolio-template on GitHub"
+            aria-label="Fork kenxdrgn/nuxt-i18n-portfolio-template on GitHub"
             >Fork</a
           >
           <div class="px-6"></div>
           <a
             class="github-button"
-            href="https://github.com/kenxdrgn/i18n-nuxt-portfolio-template"
+            href="https://github.com/kenxdrgn/nuxt-i18n-portfolio-template"
             data-icon="octicon-star"
             data-size="large"
             data-show-count="true"
-            aria-label="Star kenxdrgn/i18n-nuxt-portfolio-template on GitHub"
+            aria-label="Star kenxdrgn/nuxt-i18n-portfolio-template on GitHub"
             >Star</a
           >
         </div>
