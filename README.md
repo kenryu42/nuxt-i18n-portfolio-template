@@ -53,7 +53,7 @@
 
 <br>
 
-[![Demo Example](https://img.shields.io/badge/-Demo%20Example%20🚀-informational?style=for-the-badge)](https://i18n-nuxt-portfolio-template.web.app/)
+[![Demo Example](https://img.shields.io/badge/-Demo%20Example%20🚀-informational?style=for-the-badge)](https://nuxt-i18n.web.app/)
 
 <br>
 
