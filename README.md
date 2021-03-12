@@ -52,7 +52,11 @@
 
 <br>
 
-[![](https://img.shields.io/badge/-Demo%20🚀-informational?style=for-the-badge)](https://i18n-nuxt-portfolio-template.web.app/)
+[![Demo Example](https://img.shields.io/badge/-Demo%20Example%20🚀-informational?style=for-the-badge)](https://i18n-nuxt-portfolio-template.web.app/)
+
+<br>
+
+[![Live Example](https://img.shields.io/badge/-Live%20Example%20🚀-success?style=for-the-badge)](https://i18n-nuxt-portfolio-template.web.app/)
 
 # Usage
 
