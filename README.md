@@ -72,8 +72,13 @@ $ npm run dev
 
 # Language
 
+nuxt.config.js
+
 ```javascript
 export default {
+  /*
+   ** You can edit i18n config here
+   */
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'en',
@@ -108,3 +113,6 @@ lang
 ├── en.json
 └── jp.json
 ```
+
+For more customization features, please refer to the [i18n documentation](https://i18n.nuxtjs.org/).
+
