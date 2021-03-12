@@ -77,28 +77,28 @@ export default {                                                              nu
   /*
    ** You can edit i18n config here
    */
-  i18n: {
-      strategy: 'prefix_except_default',
-      defaultLocale: 'en',
-      locales: [
-        {
-          code: 'en',
-          iso: 'en_US',
-          file: 'en.json',
-        },
-        {
-          code: 'jp',
-          iso: 'ja_JP',
-          file: 'jp.json',
-        },
-        {
-          code: 'cn',
-          iso: 'zh_CN',
-          file: 'cn.json',
-        },
-      ],
-      lazy: true,
-      langDir: 'lang/',
+	i18n: {
+		strategy: 'prefix_except_default',
+		defaultLocale: 'en',
+		locales: [
+			{
+				code: 'en',
+				iso: 'en_US',
+				file: 'en.json',
+			},
+			{
+				code: 'jp',
+				iso: 'ja_JP',
+				file: 'jp.json',
+			},
+			{
+				code: 'cn',
+				iso: 'zh_CN',
+				file: 'cn.json',
+			},
+		],
+		lazy: true,
+		langDir: 'lang/',
 	},
 }
 ```
@@ -111,4 +111,3 @@ lang
 ├── en.json
 └── jp.json
 ```
-
