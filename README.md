@@ -105,7 +105,7 @@ export default {
 }
 ```
 
-The language json files are in **lang** directory.
+The language json files are in the **lang** directory.
 
 ```
 lang
