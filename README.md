@@ -1,4 +1,4 @@
-# i18n Nuxt Portfolio Template
+# Nuxt i18n Portfolio Template
 
 ![LGTM Grade](https://img.shields.io/lgtm/grade/javascript/github/kenxdrgn/i18n-nuxt-portfolio-template?logo=lgtm&logoWidth=18) ![GitHub](https://img.shields.io/github/license/kenxdrgn/i18n-nuxt-portfolio-template?color=brightgreen)
 
@@ -58,10 +58,10 @@
 
 ```bash
 # Download this repository to local machine
-$ git clone https://github.com/kenxdrgn/i18n-nuxt-portfolio-template
+$ git clone https://github.com/kenxdrgn/nuxt-i18n-portfolio-template
 
 # Go into the repository
-$ cd i18n-nuxt-portfolio-template
+$ cd nuxt-i18n-portfolio-template
 
 # Install dependencies
 $ npm install
@@ -69,3 +69,46 @@ $ npm install
 # Serve with hot reload at localhost:3000
 $ npm run dev
 ```
+
+# Language
+
+```javascript
+export default {                                                              nuxt.config.js
+  /*
+   ** You can edit i18n config here
+   */
+  i18n: {
+      strategy: 'prefix_except_default',
+      defaultLocale: 'en',
+      locales: [
+        {
+          code: 'en',
+          iso: 'en_US',
+          file: 'en.json',
+        },
+        {
+          code: 'jp',
+          iso: 'ja_JP',
+          file: 'jp.json',
+        },
+        {
+          code: 'cn',
+          iso: 'zh_CN',
+          file: 'cn.json',
+        },
+      ],
+      lazy: true,
+      langDir: 'lang/',
+	},
+}
+```
+
+The language json files are in **lang** directory.
+
+```
+lang
+├── cn.json
+├── en.json
+└── jp.json
+```
+
