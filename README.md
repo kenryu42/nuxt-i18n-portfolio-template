@@ -74,9 +74,9 @@ $ npm run dev
 
 ```javascript
 export default {                                                              nuxt.config.js
-  /*
-   ** You can edit i18n config at here
-   */
+	/*
+	** You can edit i18n config at here
+	*/
 	i18n: {
 		strategy: 'prefix_except_default',
 		defaultLocale: 'en',
