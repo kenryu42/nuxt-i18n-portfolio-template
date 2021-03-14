@@ -17,14 +17,16 @@
   </nuxt-link>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+
+export default Vue.extend({
   methods: {
-    gotoSlide(index) {
+    gotoSlide(index: number): void {
       this.$store.commit('slide/goto', index)
     },
   },
-}
+})
 </script>
 
 <style></style>

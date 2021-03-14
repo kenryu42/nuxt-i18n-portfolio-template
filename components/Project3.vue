@@ -29,10 +29,7 @@
             class="flex bg-gray-900 dark:bg-gray-800 text-gray-100 px-5 py-3 font-semibold rounded hover:bg-gray-800 dark:hover:bg-gray-700"
             >Demo<ExternalLink class="ml-1 mt-1"
           /></a>
-          <a
-            href="https://github.com/kenxdrgn/Ai-Line-Art-Web-App"
-            rel="noopener noreferrer"
-            target="_blank"
+          <a href="/" rel="noopener noreferrer" target="_blank"
             ><GithubLogo
           /></a>
         </div>

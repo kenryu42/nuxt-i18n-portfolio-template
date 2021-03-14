@@ -225,9 +225,16 @@
   </nav>
 </template>
 
-<script>
-export default {
-  data() {
+<script lang="ts">
+import Vue from 'vue'
+
+interface Data {
+  isMenuOpen: boolean
+  dark: boolean
+}
+
+export default Vue.extend({
+  data(): Data {
     return {
       isMenuOpen: false,
       dark: false,
@@ -244,7 +251,7 @@ export default {
       })
   },
   methods: {
-    activeHamburger() {
+    activeHamburger(): void {
       this.isMenuOpen = !this.isMenuOpen
       if (this.isMenuOpen) {
         document.body.className = 'non-scroll top-0'
@@ -252,20 +259,20 @@ export default {
         document.body.className = ''
       }
     },
-    gotoSlide(index) {
+    gotoSlide(index: number): void {
       this.$store.commit('slide/goto', index)
     },
-    switchToggle() {
+    switchToggle(): void {
       this.dark = !this.dark
       this.darkMode(this.dark)
     },
-    darkMode(dark) {
+    darkMode(dark: boolean): void {
       dark
-        ? document.querySelector('html').classList.add('dark')
-        : document.querySelector('html').classList.remove('dark')
+        ? document.querySelector('html')!.classList.add('dark')
+        : document.querySelector('html')!.classList.remove('dark')
     },
   },
-}
+})
 </script>
 <style>
 button:focus {

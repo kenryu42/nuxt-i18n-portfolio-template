@@ -116,19 +116,20 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      title: this.$i18n.t('skill'),
-    }
-  },
-  head() {
-    return {
-      title: this.title + ' - Your_Name',
-    }
-  },
+<script lang="ts">
+import Vue from 'vue'
+
+interface Title {
+  title: string
 }
+
+export default Vue.extend({
+  head(): Title {
+    return {
+      title: this.$i18n.t('skill') + ' - Your_Name',
+    }
+  },
+})
 </script>
 
 <style></style>
