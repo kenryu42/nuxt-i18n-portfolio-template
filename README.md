@@ -41,6 +41,8 @@
 
 # Features
 
+✅ **Internationalization** 🌐
+
 ✅ **Mobile-first UI Design** 📱
 
 ✅ **Fully Responsive** 🖥
