@@ -138,3 +138,5 @@ lang
 
 For more customization features, please refer to the [i18n documentation](https://i18n.nuxtjs.org/).
 
+For lite version without i18n features, check out [lite-nuxt-portfolio-template](https://github.com/kenxdrgn/lite-nuxt-portfolio-template).
+
