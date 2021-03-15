@@ -77,6 +77,21 @@ $ npm install
 $ npm run dev
 ```
 
+```bash
+# build for production and launch server
+$ npm run build
+$ npm run start
+```
+
+```bash
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+
+
 # Language
 
 nuxt.config.js
